@@ -8,6 +8,13 @@ body {
   background-color:#1E1F21;
 }
 
+div.blue
+{
+  border:2px solid #3688a3;
+  background-color:#409fbf;
+  background-width:15px;
+}
+
 div.relative{
   position:relative;
   color:white;
@@ -22,11 +29,18 @@ h2
   font-family: fantasy;
   text-align: center;
 }
+h2.blue
+{
+  text-align: center;
+  font-size:40px;
+  border:2px solid #3688a3;
+  background-color:#409fbf;
+}
 
 .parallax
 {
   background-image: url("Development.PNG");
-  height: 480px;
+  height: 360px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,13 +50,39 @@ h2
 .parallaxApp
 {
   background-image: url("AppDev.PNG");
-  height: 480px;
+  height: 360px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.parallaxList
+{
+  background-image: url("Images/ListFund.PNG");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parallaxCalculate
+{
+  background-image: url("Images/Calculate.PNG");
+  height: 420px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parallaxLogin
+{
+  background-image: url("Images/BankApp.PNG");
+  height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 button.btn
 {
@@ -57,4 +97,11 @@ button.btn
 {
   transform: scale(1.2);
   transition: transform .2s ease;
+}
+
+p.white
+{
+  color: white;
+  font-family: fantasy;
+  text-align:center;
 }
