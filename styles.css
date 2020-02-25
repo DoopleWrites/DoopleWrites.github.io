@@ -84,6 +84,15 @@ h2.blue
   background-repeat: no-repeat;
 }
 
+.parallaxThisWeb
+{
+  background-image: url("html2.PNG");
+  height:1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 button.btn
 {
   border: none;
