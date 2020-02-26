@@ -1,0 +1,33 @@
+body
+{
+  background-color: #ffe6e0;
+}
+
+.box {
+   display: flex;
+   align-items: top;
+   justify-content: center;
+   flex-flow
+}
+
+button:hover
+{
+  border-color: #999999;
+}
+
+button
+{
+  border-style: none;
+  border:2px solid #ffe6e0;
+  background-color: inherit;
+  font-family: Arial;
+  font-size: 25px;
+  color:#666666;
+}
+
+h1
+{
+  color:#4d4d4d;
+  font-family: Arial;
+  text-align: center;
+}

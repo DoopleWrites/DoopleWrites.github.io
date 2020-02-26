@@ -5,9 +5,9 @@ body
 
 @keyframes logo_start
 {
-  0%    {opacity: 0.0; transform: translate(750px, 20px) scale(1.4);}
-  50%   {opacity: 1.0; transform: translate(750px, 20px) scale(1.4);}
-  100%  {opacity: 1.0; transform: translate(550px, -200px) scale(1.0);}
+  0%    {opacity: 0.0; transform: translate(0px, 200px) scale(1.6);}
+  50%   {opacity: 1.0; transform: translate(0px, 200px) scale(1.6);}
+  100%  {opacity: 1.0; transform: translate(0px, 0px) scale(1.0);}
 }
 
 @keyframes button_start
@@ -19,9 +19,9 @@ body
 
 @keyframes text_start
 {
-  0%     {opacity:0.0; transform: translate(0, 0px);}
-  50%    {opacity:0.0; transform: translate(0, 0px);}
-  100%   {opacity:1.0; transform: translate(0, -400px);}
+  0%     {opacity:0.0; transform: translate(0, 50px);}
+  50%    {opacity:0.0; transform: translate(0, 50px);}
+  100%   {opacity:1.0; transform: translate(0, -30px);}
 }
 
 .logoStart
@@ -75,7 +75,8 @@ h2
   font-size: 40px;
 }
 
-.box {
+.box
+{
    display: flex;
    align-items:center;
 }
@@ -85,5 +86,5 @@ div.background
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid #564C65;
+  border: 5px solid #404040;
 }
